@@ -1,24 +1,28 @@
 /* Element Selector */
 h3 {
-    color: red;
+    color: #164863;
+    font-size: 20px;
 }
 
 /*class selector, pode ser aplicado em muitos elementos*/
 .header-verde {
-    color:green;
+    color #9BBEC8;
+    font-size: 20px;
+    
 }
 
 /* id selector, deve ser aplicado em apenas *1* elemento*/
 #proposto {
     color:blue;
+    font-size: 20px;
 }
 
 /*atribute selector, seleciona todos os elementos que tenham o atributo lang*/
 p[lang] {
-   color:blueviolet; 
+   color: #427D9D; 
 }
 
 /*universal selector*/
 * {
-    background-color:antiquewhite;
+    background-color: #DDF2FD;
 }
