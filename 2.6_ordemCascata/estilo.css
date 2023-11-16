@@ -1,0 +1,28 @@
+ol {
+    color: red;
+}
+
+h1 {
+    color: rgb(102, 102, 141);
+    color: brown;
+    color: blueviolet;
+}
+
+li {
+    color: aqua;
+}
+
+#prima-id{
+    color: black;
+}
+
+.prima-class{
+    color: blueviolet ;
+}
+
+li[draggable]{
+    color:chartreuse !important;
+}
+
+
+
