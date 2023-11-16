@@ -1,0 +1,39 @@
+.quadrado{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    background-color: blue;
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.quadradodebaixo{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(223, 81, 15);
+}
+
+.quadradodedentro {
+    width: 100px;
+    height: 100px;
+    display: inline-flexbox;
+    margin: 10px;
+    background-color: blue;
+}
+
+.texto{
+    border-color: rgb(24, 148, 219);
+    border-style: solid;
+    border-width: 5px;
+    margin: 5px;
+}
