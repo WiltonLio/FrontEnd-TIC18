@@ -1,0 +1,42 @@
+h2 {
+    color: rgb(224, 194, 22);
+    font-size: 20px;
+}
+
+h5 {
+    color: rgb(224, 194, 22);
+    font-size: 12px;
+}
+
+.Roupas{
+    color: rgb(72, 21, 212);
+}
+
+.alimentos{
+    color: rgb(2, 169, 247);
+}
+
+.moveis{
+    color: rgb(90, 160, 207);
+}
+
+.lista .usada{
+    color: blueviolet;
+}
+
+.caixa li{
+    color: rgb(223, 184, 9);
+}
+
+.caixa li {
+    color: rgb(196, 86, 43);
+}
+
+.moveis li {
+    color: rgb(233, 130, 13);
+}
+
+.moveis .usada {
+    color: rgb(118, 226, 46);
+}
+
