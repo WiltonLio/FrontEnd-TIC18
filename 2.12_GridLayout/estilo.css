@@ -1,0 +1,49 @@
+/* CSS for header */
+header {
+    background-color: rgb(0, 132, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+/* CSS for menu */
+nav {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS for columns */
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+
+/* CSS for footer */
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Clearfix to clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Conteudo {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: center;
+
+}
+
+.Menu {
+    background-color: rgb(245, 248, 248);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}

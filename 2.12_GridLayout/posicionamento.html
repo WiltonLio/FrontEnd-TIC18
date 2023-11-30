@@ -1,0 +1,65 @@
+<!--https://www.w3schools.com/css/css_grid.asp-->
+<!--https://cssgridgarden.com/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamento</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            justify-items: ;
+        }
+
+        .i1{
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 50;
+        }
+
+        .i2{
+            background-color: firebrick;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 50;
+        }
+
+        .i3 {
+            background-color: khaki;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 50;
+            
+        }
+
+        .i4 {
+            background-color: lightblue;
+        }
+
+        .i5 {
+            background-color: palevioletred
+        }
+        .i6 {
+            background-color: yellow
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="i1">1</div>
+        <div class="i2">2</div>
+        <div class="i3">3</div>
+        <div class="i4">4</div>
+        <div class="i5">5</div>
+        <div class="i6">6</div>
+    </div>
+    
+</body>
+</html>
